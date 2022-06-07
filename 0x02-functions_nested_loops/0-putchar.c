@@ -5,12 +5,9 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int main()
 {
-	char c[] = "_putchar";
-	for ( int c = 0; c < 8; c++){
-_putchar(c[c]);
-	}
+	_putchar('_putchar');
 
 	_putchar('\n');
 
