@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug",
+      "program": "D:\\ALX\\alx-low_level_programming\\0x05-pointers_arrays_strings\\num.exe",
+      "args": [],
+      "cwd": "D:\\ALX\\alx-low_level_programming\\0x05-pointers_arrays_strings"
+    },
+    // {
+    //   "name": "C/C++ Runner: Debug Session",
+    //   "type": "cppdbg",
+    //   "request": "launch",
+    //   "args": [],
+    //   "stopAtEntry": false,
+    //   "externalConsole": false,
+    //   "cwd": "d:/ALX/alx-low_level_programming/0x05-pointers_arrays_strings",
+    //   "program": "d:/ALX/alx-low_level_programming/0x05-pointers_arrays_strings/build/Debug/outDebug",
+    //   "MIMode": "gdb",
+    //   "miDebuggerPath": "C:\\MinGW64\\bin\\gdb.exe",
+    //   "setupCommands": [
+    //     {
+    //       "description": "Enable pretty-printing for gdb",
+    //       "text": "-enable-pretty-printing",
+    //       "ignoreFailures": true
+    //     }
+    //   ]
+    // }
+  ]
+}
