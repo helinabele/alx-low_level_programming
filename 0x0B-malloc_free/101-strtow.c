@@ -40,13 +40,13 @@ void free_everything(char **string, int i)
 /**
  * strtow - function that splits string into words
  * @str: string being passed
- * Return: null if string is empty or null or function fails
+ * Return: null if string is eAOAmpty or null or function fails
  */
 char **strtow(char *str)
 {
 	int total_words = 0, b = 0, c = 0, length = 0;
-	char **words, *found_word;
-
+	char **words;
+	 char  *found_word;
 	if (str == 0 || *str == 0)
 		return (NULL);
 	total_words = number(str);
@@ -62,7 +62,7 @@ char **strtow(char *str)
 		else
 		{
 			found_word = str;
-			for (*str != ' ' && *str != '\0';)
+			for (;*str != ' ' && *str != '\0';)
 			{
 				length++;
 				str++;
