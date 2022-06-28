@@ -26,4 +26,3 @@ char *create_array(unsigned int size, char c)
 	}
 	return (a);
 }
-© 2022 Git
