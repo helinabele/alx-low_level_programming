@@ -1,4 +1,6 @@
+#include "main.h"
 #include <stdlib.h>
+
 /**
  * simple_print_buffer - prints buffer in hexa
  * @buffer: the address of memory to print
@@ -6,6 +8,7 @@
  *
  * Return: Nothing.
  */
+
 char *create_array(unsigned int size, char c)
 {
 	char *p;
