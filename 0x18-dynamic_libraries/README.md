@@ -1,1 +1,1 @@
-Static vs Dynamic
+0x18. C - Dynamic libraries
